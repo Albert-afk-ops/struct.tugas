@@ -1,34 +1,3 @@
-Jumlah Siswa: 2
-=====================================
-Siswa 1:
-Nama: irfan fany
-NISN: 1020304050
-Umur: 16
-Jurusan: RPL
-Tanggal Lahir: 6
-Bulan Lahir: 11
-Tahun Lahir: 2008
-Nilai MTK: 90
-Nilai IPA: 80
-Nilai B. Indonesia: 70
-Nilai B. Inggris: 100
-Nilai Akhir: 84
-=====================================
-Siswa 2:
-Nama: fachriza aditya
-NISN: 60708090
-Umur: 16
-Jurusan: RPL
-Tanggal Lahir: 1
-Bulan Lahir: 6
-Tahun Lahir: 2009
-Nilai MTK: 90
-Nilai IPA: 80
-Nilai B. Indonesia: 70
-Nilai B. Inggris: 99
-Nilai Akhir: 83.9
-Jumlah Siswa: 1
-=====================================
 Siswa 1:
 Nama: Albert Fachrezy Widodo
 NISN: 0109611324
@@ -42,3 +11,4 @@ Nilai IPA: 90
 Nilai B. Indonesia: 98
 Nilai B. Inggris: 98
 Nilai Akhir: 105.4
+

@@ -10,5 +10,6 @@ Nilai MTK: 98
 Nilai IPA: 90
 Nilai B. Indonesia: 98
 Nilai B. Inggris: 98
-Nilai Akhir: 105.4
+Nilai Akhir: 96
+
 

@@ -17,6 +17,8 @@ struct nilai {
     float Big;
     float IPA;
     float nilaiAkhir;
+    float nilaiTugas;
+    float nilaiUas;
 };
 
 struct siswa {
@@ -54,6 +56,8 @@ void saveToFile(siswa daftar[], int jumlah) {
         file << "Nilai B. Indonesia: " << daftar[i].Nilai.BIn << endl;
         file << "Nilai B. Inggris: " << daftar[i].Nilai.Big << endl;
         file << "Nilai Akhir: " << daftar[i].Nilai.nilaiAkhir << endl;
+        file << "Nilai Tugas: " << daftar[i].Nilai.nilaiTugas << endl;
+        file << "Nilai UAS: " << daftar[i].Nilai.nilaiUas;
     }
     file.close();
     cout << " Data siswa disimpan ke 'siswa.txt'." << endl;
@@ -92,6 +96,10 @@ void tambahDataSiswa(siswa daftar[], int &jumlah) {
         cin >> daftar[i].Nilai.BIn;
         cout << "Masukkan nilai B. Inggris: ";
         cin >> daftar[i].Nilai.Big;
+        cout << "Masukkan nilai Tugas: ";
+        cin >> daftar[i].Nilai.nilaiTugas;
+        cout << "Masukkan nilai UAS: ";
+        cin >> daftar[i].Nilai.nilaiUas;
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
         daftar[i].Nilai.nilaiAkhir = hitungNilaiAkhir(daftar[i].Nilai);

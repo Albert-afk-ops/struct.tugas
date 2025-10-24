@@ -29,7 +29,7 @@ struct siswa {
 };
 
 float hitungNilaiAkhir(nilai n) {
-    return (0.4 * n.Mtk) + (0.3 * n.IPA) + (0.2 * n.BIn) + (0.2 * n.Big);
+    return (0.35 * n.Mtk) + (0.25 * n.IPA) + (0.2 * n.BIn) + (0.2 * n.Big);
 }
 
 void saveToFile(siswa daftar[], int jumlah) {
@@ -204,3 +204,4 @@ int main() {
 
     return 0;
 }
+

@@ -11,5 +11,7 @@ Nilai IPA: 90
 Nilai B. Indonesia: 98
 Nilai B. Inggris: 98
 Nilai Akhir: 96
+Nilai Tugas: 95
+Nilai Uas: 98
 
 
